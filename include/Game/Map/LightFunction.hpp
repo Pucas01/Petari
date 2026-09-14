@@ -7,7 +7,7 @@
 
 class JMapInfo;
 class LightAreaHolder;
-struct PointLightInfo;
+class PointLightInfo;
 class ResourceHolder;
 class ActorLightCtrl;
 
