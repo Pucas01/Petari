@@ -31,6 +31,8 @@ public:
 
     void updatePointLight();
 
+    s32 getStep() const { return mStep; }
+
     /* 0x00 */ s32 mStep;
     /* 0x04 */ s32 mInterpolate;
     /* 0x08 */ const LiveActor* mCurrentActor;

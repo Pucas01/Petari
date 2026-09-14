@@ -62,7 +62,7 @@ void LightPointCtrl::updatePointLight() {
         return;
     }
 
-    if (*(volatile s32*)&mStep == -1) {
+    if (getStep() == -1) {
         *mCurrentInfo = *mTargetInfo;
         return;
     }
