@@ -7,8 +7,7 @@
 
 class LiveActor;
 
-class PointLightInfo {
-public:
+struct PointLightInfo {
     /* 0x00 */ Vec mPos;
     /* 0x0C */ GXColor mColor;
     /* 0x10 */ f32 mRefDistance;
